@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.quadrados {
+    max-width: 640px;
+    width: 100%;
+    margin: 56px auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 1%;
+}
+
+.quadrados__produto {} /* bloco */
+
+.quadrados__produto--imagem { /* elemento */
+    width: 100%;
+}
+
+.quadrados__produtos--nome { /* elemento */
+    font-size: 1.2em;
+    margin: 8px 0;
+}
+
+.quadrados__produtos--descricao { /* elemento */
+    color: gray;
+}
+
+.quadrados__em-destaque--cor { /* modificador */
+    border: 2px solid gold;
+    padding: 8px;
+    background-color: #ffff42;
+}
+
+.quadradosdestaque:hover{
+    border: 2px solid blue;
+    padding: 8px;
+    background-color: rgb(84, 84, 161);
+    color: #fff;
+
+    .corhover{
+        color: yellow;
+        font-size: 20px;
+        text-decoration: underline red
+    }
+}
+
+.quadrados-c:hover{
+    width: 400px;
+    height: 130px;
+    background-color: yellow;
+}
